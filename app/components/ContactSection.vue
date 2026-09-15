@@ -83,7 +83,7 @@ const contactInfo = [
   { icon: 'lucide:mail', label: 'dalal.web@gmail.com', href: 'mailto:dalal.web@gmail.com' },
   { icon: 'lucide:map-pin', label: 'Amman,Jordan', href: null },
   {icon: 'lucide:phone', label: ' +962 780874844', href: '#' },
-  { icon: 'lucide:linkedin', label: 'linkedin.com/in/dalal-bassam', href: 'https://linkedin.com/in/dalal-bassam' },
+  { icon: 'lucide:linkedin', label: 'linkedin.com/in/dalal-bassam', href: 'https://www.linkedin.com/in/dalal-bassam-287048157/' },
 ]
 </script>
 
@@ -92,12 +92,7 @@ const contactInfo = [
     <div class="container-app grid gap-14 lg:grid-cols-2 lg:gap-16">
       <div>
         <span class="inline-flex text-xs font-semibold tracking-wide text-accent-light/80">Get In Touch</span>
-        <h2 class="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl">
-          Have a project or opportunity? Let's talk.
-        </h2>
-        <p class="mt-4 max-w-sm text-navy-100/70">
-          I'm available for full-time, part-time and remote opportunities.
-        </p>
+    
 
         <ul class="mt-8 flex flex-col gap-4">
           <li v-for="info in contactInfo" :key="info.label" class="flex items-center gap-3 text-sm text-navy-100/90">
@@ -110,7 +105,7 @@ const contactInfo = [
         </ul>
 
         <p class="font-hand mt-10 hidden text-2xl text-navy-100/80 lg:block">
-          Let's build something great <span class="text-accent">♡</span>
+          Let's build something great
         </p>
       </div>
 

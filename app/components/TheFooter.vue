@@ -1,15 +1,13 @@
 <script setup lang="ts">
 const links = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ]
 
 const socials = [
-  { icon: 'lucide:linkedin', href: 'https://linkedin.com/in/dalal-bassam' },
-  { icon: 'lucide:github', href: 'https://github.com/dalal-bassam' },
+  { icon: 'lucide:linkedin', href: 'https://www.linkedin.com/in/dalal-bassam-287048157/' },
   { icon: 'lucide:mail', href: 'mailto:dalal.web@gmail.com' },
 ]
 
