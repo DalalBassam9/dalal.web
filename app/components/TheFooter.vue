@@ -8,7 +8,7 @@ const links = [
 
 const socials = [
   { icon: 'lucide:linkedin', href: 'https://www.linkedin.com/in/dalal-bassam-287048157/' },
-  { icon: 'lucide:mail', href: 'mailto:dalal.web@gmail.com' },
+  { icon: 'lucide:mail', href: 'mailto:hello.dalalweb@gmail.com' },
 ]
 
 const year = new Date().getFullYear()
